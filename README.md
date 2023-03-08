@@ -111,5 +111,6 @@ $$
 ***
 #### 参考文献
 1.Bradford MM. A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal Biochem. 1976 May 7;72:248-54. doi: 10.1006/abio.1976.9999. PMID: 942051.
+
 2.Kielkopf CL, Bauer W, Urbatsch IL. Bradford Assay for Determining Protein Concentration. Cold Spring Harb Protoc. 2020 Apr 1;2020(4):102269. doi: 10.1101/pdb.prot102269. PMID: 32238597.
 
