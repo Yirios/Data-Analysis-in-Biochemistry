@@ -97,21 +97,19 @@ $$
 ## 二、规范测定方法
 此部分简要展示和比较The Bradford assay(Bradford,1976)和Protocol for the Bradford assay(Clara L. Kielkopf etc,2020)两种方法。
 
-###The Bradford assay(standard method)
-####实验方法
+### The Bradford assay(standard method)
+#### 实验方法
 0.1ml蛋白溶液(从10到100微克梯度,用缓冲溶液补齐体积到0.1ml)、5ml bradford试剂。充分震荡摇匀后，在2min后1h前以空白组(仅bradford试剂)对照，以蛋白质量为横轴，吸光度为纵轴绘制标准曲线。  
-####线性范围
+#### 线性范围
 经比较，此处使用的bradford试剂和本实验报告中提供的配方完全一致，若配置过程按照实验报告进行，可认为使用了同样的bradford试剂，这为分析文献中Figure1提供基础。但由于没有精确实验数据而只能粗略目测，文献中线性范围大致相当于本实验中0到0.05mg/ml，但考虑到温度，湿度，材料来源，操作方法等变量，此线性范围仅供参考。
-###Protocol for the Bradford assay
-####实验方法
+### Protocol for the Bradford assay
+#### 实验方法
 0到20微克蛋白浓度梯度(使用去离子水补充体积到20微升)、10微升缓冲液、1ml bradford试剂。充分混合均匀后，室温条件5min，以空白组为对照测量吸光度，绘制标准曲线。
-####优势和不足
+#### 优势和不足
 后者是为96-well plate format(96孔平板)设计的方法，优势是用量少，使用multi-channel pipettle(多通道移液器)操作简便，而且标准和样品的吸光度可以同时读取，缺陷是其它物质的干扰影响有所增加。
 
-
-
 ***
-###参考文献
+### 参考文献
 1.Bradford MM. A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal Biochem. 1976 May 7;72:248-54. doi: 10.1006/abio.1976.9999. PMID: 942051.
 2.Kielkopf CL, Bauer W, Urbatsch IL. Bradford Assay for Determining Protein Concentration. Cold Spring Harb Protoc. 2020 Apr 1;2020(4):102269. doi: 10.1101/pdb.prot102269. PMID: 32238597.
 
