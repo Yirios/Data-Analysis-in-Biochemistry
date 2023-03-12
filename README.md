@@ -57,16 +57,16 @@ $$
 #### 1.滑动窗口
 以下图为例，我们在选取点的时候要保证是连续的且不少于五个点，否则得出线性是无意义的。可见我们更注重的是连续点的个数，这关乎我们结果的可信度，所以采用滑动窗口的方式来查找符合 $R$ 阈值的点的个数并选取最大的。
 
-![Alt text](Ex2 分光光度计线性分辨范围---考马斯亮蓝\result\fig\fig12.png)
+![Alt text](Ex2%20%E5%88%86%E5%85%89%E5%85%89%E5%BA%A6%E8%AE%A1%E7%BA%BF%E6%80%A7%E5%88%86%E8%BE%A8%E8%8C%83%E5%9B%B4---%E8%80%83%E9%A9%AC%E6%96%AF%E4%BA%AE%E8%93%9D/result/fig/fig12.png)
 
 滑动窗口图解：
 
-![Alt text](Ex2 分光光度计线性分辨范围---考马斯亮蓝\sw.png)
+![Alt text](Ex2%20%E5%88%86%E5%85%89%E5%85%89%E5%BA%A6%E8%AE%A1%E7%BA%BF%E6%80%A7%E5%88%86%E8%BE%A8%E8%8C%83%E5%9B%B4---%E8%80%83%E9%A9%AC%E6%96%AF%E4%BA%AE%E8%93%9D/sw.png)
 
 #### 2. $\chi^2$ 分布与综合线性浓度区间
 对结果较好的组赋予较高的权重，这样对每所有组浓度范围加权求和，从而得到一个本次实验的线性浓度的概率密度函数。这里权重简单的采用高于 $R$ 阈值的量来表示, 所以浓度分布 $W$ 如下所示：
 
-![Alt text](Ex2 分光光度计线性分辨范围---考马斯亮蓝\fb.png)
+![Alt text](Ex2%20%E5%88%86%E5%85%89%E5%85%89%E5%BA%A6%E8%AE%A1%E7%BA%BF%E6%80%A7%E5%88%86%E8%BE%A8%E8%8C%83%E5%9B%B4---%E8%80%83%E9%A9%AC%E6%96%AF%E4%BA%AE%E8%93%9D/fb.png)
 
 $\chi^2$ 分布可较好的体现上图所呈现的分布特征，其概率密度函数如下：
 
@@ -81,7 +81,7 @@ $$
 
 下图为 $\chi^2$ 分布的概率密度函数的拟合效果，蓝色部分为95%置信度的线性浓度区间。
 
-![Alt text](Ex2 分光光度计线性分辨范围---考马斯亮蓝\kf.png)
+![Alt text](Ex2%20%E5%88%86%E5%85%89%E5%85%89%E5%BA%A6%E8%AE%A1%E7%BA%BF%E6%80%A7%E5%88%86%E8%BE%A8%E8%8C%83%E5%9B%B4---%E8%80%83%E9%A9%AC%E6%96%AF%E4%BA%AE%E8%93%9D/kf.png)
 
 分析结果：
 我们有95%的把握认为当浓度在 0.0002-0.3000 $mg/ml$ 是呈线性的。
@@ -117,4 +117,3 @@ $$
 1.Bradford MM. A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal Biochem. 1976 May 7;72:248-54. doi: 10.1006/abio.1976.9999. PMID: 942051.
 
 2.Kielkopf CL, Bauer W, Urbatsch IL. Bradford Assay for Determining Protein Concentration. Cold Spring Harb Protoc. 2020 Apr 1;2020(4):102269. doi: 10.1101/pdb.prot102269. PMID: 32238597.
-
