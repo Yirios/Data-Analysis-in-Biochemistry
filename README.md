@@ -117,3 +117,37 @@ $$
 1.Bradford MM. A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal Biochem. 1976 May 7;72:248-54. doi: 10.1006/abio.1976.9999. PMID: 942051.
 
 2.Kielkopf CL, Bauer W, Urbatsch IL. Bradford Assay for Determining Protein Concentration. Cold Spring Harb Protoc. 2020 Apr 1;2020(4):102269. doi: 10.1101/pdb.prot102269. PMID: 32238597.
+
+## 实验五 小鼠血清、肝脏和肌肉中甘油三酯含量
+
+### 数据处理与画图
+
+#### 数据清洗
+由于数据的数目较少，这里直接通过人工观察的方式即可除去异常的数据点
+
+#### 浓度计算
+依据**朗博——比尔定律**可以计算得组织中的甘油三酯含量
+
+$$
+C_i= \frac{A_i-A_0}{A_s-A_0}C_s
+$$
+
+其中 $C_i$ 为样品管的甘油三酯浓度，$C_s$ 为标准管的甘油三酯浓度。
+$A_i$, $A_s$, $A_0$,分别为样品管，标准管，空白管的吸光度。
+
+#### 画图
+![Alt text](Ex5%20%E5%AE%9E%E9%AA%8C%E4%BA%94%20%E5%B0%8F%E9%BC%A0%E8%A1%80%E6%B8%85%E3%80%81%E8%82%9D%E8%84%8F%E5%92%8C%E8%82%8C%E8%82%89%E4%B8%AD%E7%94%98%E6%B2%B9%E4%B8%89%E9%85%AF%E5%90%AB%E9%87%8F%E7%9A%84%E6%B5%8B%E5%AE%9A/TG_tissues.png)
+
+### K-W平均秩检验（Kruskal-Wailis H）
+未通过正态性和方差齐性检验，采取非参数检验的方式。
+
+Kruskal-Wallis检验的思想是把n组样本混合起来成为一个数据集（即假设他们是来自同一个样本）,然后将数据从小到大编秩，每个数据在混合数据集中都有自己的秩；如果顺序位数相同，则取平均值作为秩。再然后求各组的平均秩次，如果这n组数据来自同一个样本，则应该各组的秩次和混合数据的总平均秩次相差不大，如果差异很大的话，则说明各组不是来自同一个总体。
+
+|血清|肝脏|肌肉|p|
+|:---:|:---:|:---:|:----:|
+|√|√|√|0.0191146489820851|
+|√|√||0.8725590308923732|
+|√||√|0.0161224153433004|
+||√|√|0.0163091718777549|
+
+可见，血清与肝脏的甘油三酯含量差异不大，而肌肉中的甘油三酯含量有明显差异（p<0.05）
