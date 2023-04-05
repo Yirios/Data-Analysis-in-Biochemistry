@@ -71,8 +71,9 @@ library(Hmisc)#添加次要刻度线
 minor.tick(ny=2,tick.ratio=1)
 minor.tick(ny=4,tick.ratio=0.5)
 
-
-#
+# 缩小图片尺寸
+#Sample剔除数据前和剔除数据后
+#Result
 #Summary
 '''
 > summary(Liver)
